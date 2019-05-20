@@ -16,3 +16,4 @@ Additionally the following details should be considered:
 --A Unit test for the business logic
 --The JavaFX frontend
 
+The file "Character Counter - Solution details_.pptx" explains my solution details and strategy.
