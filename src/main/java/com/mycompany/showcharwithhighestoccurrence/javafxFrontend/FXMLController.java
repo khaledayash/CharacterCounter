@@ -26,7 +26,8 @@ public class FXMLController implements Initializable {
     @FXML
     private void showCharWithHighestOccurence(KeyEvent event) {
 
-        String input, output = "";
+        String input = "";
+        String output = "";
 
 
         if (textField.getText() != null) {
@@ -43,6 +44,5 @@ public class FXMLController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
     }
 }

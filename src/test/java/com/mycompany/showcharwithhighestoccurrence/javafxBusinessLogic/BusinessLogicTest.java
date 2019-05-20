@@ -2,7 +2,6 @@ package com.mycompany.showcharwithhighestoccurrence.javafxBusinessLogic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mock;
 import org.mockito.Spy;
 import org.mockito.runners.MockitoJUnitRunner;
 
@@ -10,8 +9,9 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import static org.mockito.Mockito.*;
+
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
 public class BusinessLogicTest {
@@ -22,7 +22,7 @@ public class BusinessLogicTest {
     private BusinessLogic businessLogic1;
 
     @Test
-    public void giveFinalResult() throws Exception{
+    public void giveFinalResult(){
         String s = "hello test";
         String result = "The most frequent letters are e, l, t with 2 occurences.";
 
